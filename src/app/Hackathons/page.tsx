@@ -83,7 +83,7 @@ const hackathonEntriesData = [
     title: "Bomberman Dom",
     award: "Fun Game Project",
     description: "Jeu multijoueur inspiré du classique Bomberman, développé avec logique temps réel, détection de collision, explosion et rendu 2D. Conçu pour apprendre la synchronisation réseau et les systèmes de jeu.",
-    imageSrc: '/solutions/neosolutions.svg', // Replace with the actual image path
+    imageSrc: '/solutions/bomberman.png', // Replace with the actual image path
     projectLink: "https://github.com/galsen-boy/bomberman-dom", // <-- Add the link for Neosolutions
     trophyType: "participant", // Specify the trophy type (using participant as a placeholder for Top 5)
     techStackIcons: [ // <-- Add paths to tech stack icons for Neosolutions
