@@ -159,16 +159,7 @@ const devSkills = [
 
 
 const contentSkills = [
-  'Wireshark',
-  'Burp Suite',
-  'Nmap',
-  'Metasploit',
-  'John the Ripper',
-  'Ghidra',
-  'Radare2',
-  'Netcat',
-  'iptables',
-  'Fail2ban'
+  'Malware Analysis', 'Threat Intelligence', 'Threat Hunting', 'Log Analysis', 'Programming & Scripting', 'Network Security', 'Incidence Reponse', 'Compliance & Risk Management', 'Cloud Security', 'Penetration Testing', 'Vulnerability Management', 'Security Recherche',
 ];
 
 
@@ -247,11 +238,11 @@ export default function Home() {
             className="absolute left-45 bottom-10"
           />
           <Image
-            src="/logo/lauv-logo.svg"
+            src="/logo/lauv-logo.png"
             alt="Lauv Logo"
-            width={20}
-            height={20}
-            className="m-10 transition-all duration-300 hover:scale-150 hover:rotate-10 hover:brightness-125 absolute left-44 bottom-9"
+            width={55}
+            height={55}
+            className="m-10 transition-all duration-300 hover:scale-150 hover:rotate-10 hover:brightness-125 absolute left-39.5 bottom-5"
           />
         </div>
 
@@ -266,7 +257,7 @@ export default function Home() {
                  DEVELOP
                </h3>
                <p className="text-gray-400 md:text-md text-sm mt-2 leading-relaxed mb-5">
-                 Started creating mobile applications using Flutter, FlutterFlow, and Firebase and eventually switched to Web Development using NextJS, React, and Tailwind
+                   Développeur passionné, je concois des solutions modernes,performantes et adaptées aux besoins. curieux et rigoureux, j'aime apprendre, collaborer et relever des défis techniques avec créativité.
                </p>
                <h4 className="text-cyan-300 font-semibold mb-3 text-base">
                  Skillset &amp; tools
@@ -283,10 +274,10 @@ export default function Home() {
              {/* hover:scale-105 on the card wrapper is kept */}
              <div className="relative p-6 rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 custom-corner-border">
                <h3 className="text-white font-bold md:text-2xl text:lg tracking-wide mb-3">
-                 CREATE {/* Updated title based on your code */}
+                 CYBERSECURITY {/* Updated title based on your code */}
                </h3>
                <p className="text-gray-400 md:text-md text-sm mt-2 leading-relaxed mb-5">
-                   My content creation journey evolved from a side hustle to serving other creators, achieving an average reach of 15 million within 90 days. {/* Updated description */}
+                Passionné par la Cybersécurité, je m'engage à protéger les systèmes et les données en anticipant les menaces et en proposant des solutions fiables. j'aime analyser, comprendre et sécuriser chaque maillon de la chaine.
                </p>
                <h4 className="text-cyan-300 font-semibold mb-3 text-base">
                  Skillset &amp; Tools
@@ -314,9 +305,9 @@ export default function Home() {
 
             <div className="hidden md:block mt-10 mb-20">
               <TiltedCard
-                imageSrc="/photos/tiltedcard.svg"
-                altText="Yuyuhiei"
-                captionText="Lauvigne Lumeda" 
+                imageSrc="/photos/titlecard.jpg"
+                altText="AZERTY"
+                captionText="DAIBOU BA" 
                 containerHeight="600px"
                 containerWidth="500px"
                 imageHeight="600px"
@@ -328,33 +319,12 @@ export default function Home() {
                 displayOverlayContent={true}
                 overlayContent={
                   <p className="bg-transparent px-4 py-2 border-1 border-dashed rounded-lg opacity-50 font-bold m-5 absolute top-5 left-85">
-                    Lauvigne
+                    DAIBOU
                   </p>
                 }
               />
             </div>
 
-            <div className="md:hidden mt-10 mb-20">
-              <TiltedCard
-                imageSrc="/photos/tiltedcard.svg"
-                altText="Yuyuhiei"
-                captionText="Lauvigne Lumeda"
-                containerHeight="400px"
-                containerWidth="300px"
-                imageHeight="400px"
-                imageWidth="300px"
-                rotateAmplitude={10}
-                scaleOnHover={1.1}
-                showMobileWarning={false}
-                showTooltip={false}
-                displayOverlayContent={true}
-                overlayContent={
-                  <p className="bg-transparent px-4 py-2 border-1 border-dashed rounded-lg opacity-50 font-bold m-5 absolute">
-                    Lauvigne
-                  </p>
-                }
-              />
-            </div>
 
             
           </div>

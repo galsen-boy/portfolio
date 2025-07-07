@@ -202,10 +202,10 @@ export default function RootLayout({
           {/* Adjusted margin for different screen sizes */}
             <Link href="/" passHref>
              <Image
-                src="/logo/lauv-logo2.svg"
+                src="/logo/lauv-logo.png"
                 alt="Lauv Logo"
-                width={35} // Base size for logo
-                height={35} // Base size for logo
+                width={60} // Base size for logo
+                height={60} // Base size for logo
                 // Added responsive sizing for the logo image itself if needed (optional, depends on design)
                 // className="w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 m-4 md:m-10 transition-all duration-300 hover:scale-150 hover:rotate-10 hover:brightness-125"
                 className="m-4 md:m-10 transition-all duration-300 hover:scale-150 hover:rotate-10 hover:brightness-125" // Adjusted margin

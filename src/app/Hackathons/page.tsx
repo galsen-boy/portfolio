@@ -21,7 +21,7 @@ const hackathonEntriesData = [
     award: "1st Place",
     description: "LocaLink est une plateforme web développée lors d’un hackathon, conçue pour faciliter la location de biens et services entre particuliers à l’échelle locale. L’objectif est de promouvoir une économie circulaire, pratique et économique, en connectant des utilisateurs situés à proximité immédiate.",
     imageSrc: '/solutions/localink.png', // Replace with the actual image path
-    projectLink: "https://procrash-hdps5h.flutterflow.app/?fbclid=IwZXh0bgNhZW0CMTEAAR6V1DkZeKy8dZetXVGOk7A33bbXy5Ue001oiPqO8CxLwXM40uhn5cdDCW9RUQ_aem_cvDKSgLmGXTzEsuIRtzhrw", // <-- Add the link for Procrash
+    projectLink: "https://www.linkedin.com/company/rio-digital-show/", // <-- Add the link for Procrash
     trophyType: "first", // Specify the trophy type
     techStackIcons: [ // <-- Add paths to tech stack icons for Procrash
         '/techstack/flutterflow.svg',
@@ -130,7 +130,7 @@ export default function Hackathons() {
           {/* Falling Text for Desktop */}
           <div className="hidden md:block">
             <FallingText
-              text={` Besides being a developer and content creator, I am big on joining competitions, like hackathons. It is a great way to work on solving actual problems and meet interesting people. Here are some of the events I've participated in:`}
+              text={` Besides being a developer and cybersecurity analyst, I am big on joining competitions, like hackathons. It is a great way to work on solving actual problems and meet interesting people. Here are some of the events I've participated in:`}
               highlightWords={["hackathons", "competitions", "problems", "interesting", "events"]}
               trigger="hover"
               backgroundColor="transparent"
@@ -181,7 +181,7 @@ export default function Hackathons() {
 
       {/* Footer Section */}
       <footer className="flex w-full items-center justify-center p-4 border-t border-white/[.15] text-white/50 text-sm font-light mt-20">
-        <p>&copy; {new Date().getFullYear()} Lauvigne Lumeda. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} DAIBOU BA. All rights reserved.</p>
       </footer>
     </>
   );
