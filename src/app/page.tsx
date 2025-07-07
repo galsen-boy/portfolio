@@ -159,7 +159,7 @@ const devSkills = [
 
 
 const contentSkills = [
-  'Malware Analysis', 'Threat Intelligence', 'Threat Hunting', 'Log Analysis', 'Programming & Scripting', 'Network Security', 'Incidence Reponse', 'Compliance & Risk Management', 'Cloud Security', 'Penetration Testing', 'Vulnerability Management', 'Security Recherche',
+  'Malware Analysis', 'Threat Intelligence', 'Threat Hunting', 'Log Analysis', 'Programming & Scripting', 'Network Security', 'Incidence Reponse', 'Compliance & Risk Management', 'Cloud Security', 'Penetration Testing', 'Vulnerability Management', 'Security Research',
 ];
 
 
@@ -257,7 +257,7 @@ export default function Home() {
                  DEVELOP
                </h3>
                <p className="text-gray-400 md:text-md text-sm mt-2 leading-relaxed mb-5">
-                   Développeur passionné, je concois des solutions modernes, performantes et adaptées aux besoins. curieux et rigoureux, j\'aime apprendre, collaborer et relever des défis techniques avec créativité.
+                   Développeur passionné, je concois des solutions modernes, performantes et adaptées aux besoins. curieux et rigoureux, j'aime apprendre, collaborer et relever des défis techniques avec créativité.
                </p>
                <h4 className="text-cyan-300 font-semibold mb-3 text-base">
                  Skillset &amp; tools
@@ -277,7 +277,7 @@ export default function Home() {
                  CYBERSECURITY {/* Updated title based on your code */}
                </h3>
                <p className="text-gray-400 md:text-md text-sm mt-2 leading-relaxed mb-5">
-                Passionné par la Cybersécurité, je m\'engage à protéger les systèmes et les données en anticipant les menaces et en proposant des solutions fiables. j\'aime analyser, comprendre et sécuriser chaque maillon de la chaine.
+                Passionné par la Cybersécurité, je m'engage à protéger les systèmes et les données en anticipant les menaces et en proposant des solutions fiables. j'aime analyser, comprendre et sécuriser chaque maillon de la chaine.
                </p>
                <h4 className="text-cyan-300 font-semibold mb-3 text-base">
                  Skillset &amp; Tools
