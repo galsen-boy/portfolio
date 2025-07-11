@@ -130,7 +130,7 @@ export default function Hackathons() {
           {/* Falling Text for Desktop */}
           <div className="hidden md:block">
             <FallingText
-              text={` Besides being a developer and cybersecurity analyst, I am big on joining competitions, like hackathons. It is a great way to work on solving actual problems and meet interesting people. Here are some of the events I've participated in:`}
+              text={` En plus d’être développeur et analyste en cybersécurité, je participe activement à des compétitions, comme les hackathons. C’est un excellent moyen de travailler sur des problèmes concrets et de rencontrer des personnes intéressantes. Voici quelques-uns des événements auxquels j’ai participé :`}
               highlightWords={["hackathons", "competitions", "problems", "interesting", "events"]}
               trigger="hover"
               backgroundColor="transparent"
@@ -145,7 +145,7 @@ export default function Hackathons() {
           {/* Adjusted margin bottom */}
           <div className="md:hidden mb-10"> {/* Changed mb-25 to mb-10 for smaller mobile margin */}
             <FallingText
-              text={` Besides being a developer and content creator, I am big on joining competitions, like hackathons. It is a great way to work on solving actual problems and meet interesting people. Here are some of the events I've participated in:`}
+              text={` En plus d’être développeur et analyste en cybersécurité, je participe activement à des compétitions, comme les hackathons. C’est un excellent moyen de travailler sur des problèmes concrets et de rencontrer des personnes intéressantes. Voici quelques-uns des événements auxquels j’ai participé :`}
               highlightWords={["hackathons", "competitions", "problems", "interesting", "events"]}
               trigger="hover"
               backgroundColor="transparent"
