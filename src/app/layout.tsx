@@ -9,6 +9,7 @@ import GooeyNav from "@/blocks/Components/GooeyNav/GooeyNav";
 import { usePathname } from 'next/navigation';
 // Import the Link component from next/link
 import Link from 'next/link';
+import { Analytics } from "@vercel/analytics/next"
 
 
 import { Geist, Geist_Mono } from "next/font/google";
