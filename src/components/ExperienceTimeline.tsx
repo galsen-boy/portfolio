@@ -57,6 +57,22 @@ const experiences = [
     description: 'J\’ai mené plusieurs audits et tests de sécurité sur des applications web et réseau. J\’ai utilisé des outils comme Wireshark, Burp Suite, Nmap et Ghidra pour analyser le trafic, détecter les failles et comprendre le fonctionnement de binaires. J\’ai également participé à des CTF (Capture The Flag) sur des plateformes comme HackTheBox pour mettre en pratique mes compétences en reverse engineering, exploitation de vulnérabilités, et sécurisation de services. J\’anime régulièrement des sessions de sensibilisation à la cybersécurité auprès d\'autres développeurs.',
     logo: '/exp_logos/zone.png',
   },
+  {
+    id: 7,
+    title: 'Lead Developer',
+    company: 'SARSARA',
+    year: '2025 — 2026',
+    description: 'En tant que Lead Developer chez SARSARA, j\'ai piloté les choix technologiques et supervisé le développement de solutions digitales pour l\'entreprise. J\'ai coordonné une équipe de développeurs, défini les architectures logicielles, et assuré la livraison de projets dans les délais. J\'ai mis en place des pratiques DevOps (CI/CD, Docker) et veillé à la qualité du code via des revues régulières, tout en maintenant un dialogue constant avec les parties prenantes métier.',
+    logo: '/exp_logos/sarsara.png',
+  },
+  {
+    id: 8,
+    title: 'Principal Developer',
+    company: 'ANCAR',
+    year: '2026',
+    description: 'En tant que Principal Developer à l\'Agence Nationale de Conseil Agricole et Rural (ANCAR), j\'ai conçu et développé des systèmes d\'information stratégiques pour soutenir le conseil agricole au Sénégal. J\'ai participé à la digitalisation des services ruraux, à l\'intégration de données agricoles et à la mise en place de plateformes accessibles aux agents de terrain. Ce rôle m\'a permis d\'allier expertise technique et impact social dans un domaine à forte valeur ajoutée pour le développement du pays.',
+    logo: '/exp_logos/ancar.jpg',
+  },
 ];
 
 const ExperienceTimeline: React.FC = () => {
