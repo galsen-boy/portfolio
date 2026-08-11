@@ -79,6 +79,7 @@ const FallingText: React.FC<FallingTextProps> = ({
 			Matter;
 
 		if (!containerRef.current || !canvasContainerRef.current) return;
+		const canvasContainer = canvasContainerRef.current;
 
 		const containerRect = containerRef.current.getBoundingClientRect();
 		const width = containerRect.width;
@@ -205,8 +206,8 @@ const FallingText: React.FC<FallingTextProps> = ({
 		return () => {
 			Render.stop(render);
 			Runner.stop(runner);
-			if (render.canvas && canvasContainerRef.current) {
-				canvasContainerRef.current.removeChild(render.canvas);
+			if (render.canvas && canvasContainer) {
+				canvasContainer.removeChild(render.canvas);
 			}
 			World.clear(engine.world, false);
 			Engine.clear(engine);
