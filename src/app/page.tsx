@@ -1,27 +1,23 @@
-const BlurText = dynamic(
-  () => import("@/blocks/TextAnimations/BlurText/BlurText"),
-  { ssr: false }
-);
+// app/page.tsx (or wherever your page file is)
 
-const TrueFocus = dynamic(
-  () => import("@/blocks/TextAnimations/TrueFocus/TrueFocus"),
-  { ssr: false }
-);
+"use client"
 
-const Threads = dynamic(
-  () => import("@/blocks/Backgrounds/Threads/Threads"),
-  { ssr: false }
-);
+import React from "react"; // Removed useState
+import Image from "next/image"; // Keep Image for CircularText section
 
-const CircularText = dynamic(
-  () => import("@/blocks/TextAnimations/CircularText/CircularText"),
-  { ssr: false }
-);
+// Import your components and blocks
+// Removed GooeyNav import
+import BlurText from "@/blocks/TextAnimations/BlurText/BlurText";
+import TrueFocus from "@/blocks/TextAnimations/TrueFocus/TrueFocus";
+import Threads from "@/blocks/Backgrounds/Threads/Threads";
+import CircularText from "@/blocks/TextAnimations/CircularText/CircularText";
+// ScrollReveal is imported but not used in the provided code snippet, keep if used elsewhere
+// import ScrollReveal from "@/blocks/TextAnimations/ScrollReveal/ScrollReveal";
+import TiltedCard from "@/blocks/Components/TiltedCard/TiltedCard";
+import ExperienceTimeline from '@/components/ExperienceTimeline';
+import SkillTag from '@/components/SkillTag'; // Assuming SkillTag is in components folder
+import ProjectCard from '@/components/ProjectCard'; // Import the new ProjectCard component
 
-const TiltedCard = dynamic(
-  () => import("@/blocks/Components/TiltedCard/TiltedCard"),
-  { ssr: false }
-);
 // data/projects.ts
 // Define your projects array (add your actual project data here)
 const projects = [
